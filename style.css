@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* h1{
+    background-color: black;
+    padding: 2.5rem;
+    color: white;
+    font-size: 10rem;
+    z-index: 1000;
+    position: absolute;
+    border: 1px solid #FF00FF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+tr{
+    height: 270px;
+}
+
+td{
+    width: 270px;
+    color: white;
+    text-align: center;
+}
+
+td:not(#tres):not(#seis):not(#nove){
+    animation: borderRightAnimation 3s infinite alternate;
+    border-right: 10px solid #FF00FF;
+    /* border: 10px solid transparent; */
+}
+
+td:not(#sete):not(#oito):not(#nove){
+    border-bottom: 10px solid #FF00FF;
+    /* border: 10px solid transparent; */
+    animation: borderRightAnimation 3s infinite alternate;
+}
+
+@keyframes borderRightAnimation {
+    0% {
+      border-color: #FF00FF;
+    }
+    50% {
+        border-color: #d000ff;
+    }
+    100% {
+      border-color: rgb(76, 0, 255);
+    }
+}
+
+.circulo{
+    border: 10px solid #69f40c;
+    border-radius: 100%;
+    padding: 2.5rem 3rem;
+}
+
+.x{
+    font-size: 9rem;
+    color: #00FFFF;
+}
+
+
+/* bloco inicial  */
+
+.container-inicial-jogadores{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-div{
+    width: 800px;
+    padding: 3rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+#div-1{
+    border: 2px solid #00FFFF;
+}
+
+#div-2{
+    border: 2px solid #69f40c;
+}
+
+.circulo-jogador{
+    border: 3px solid #00FFFF;
+    border-radius: 100%;
+    padding: 3.5rem;
+    margin-right: 4rem;
+}
+
+.x-jogador{
+    font-size: 7rem;
+    color: #69f40c;
+    margin-right: 5.5rem;
+    line-height: 1;
+    margin-left: 1.8rem;
+}
+
+button{
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #69f40c, #00FFFF);
+    width: 50%;
+    display: block;
+    animation: gradientAnimation 5s infinite;
+    width: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.titulo-do-jogo{
+    position: absolute;
+    left: 54%;
+    top: -10%;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    animation: gradientAnimationText 5s infinite;
+    background-image: linear-gradient(to right, #69f40c, #00FFFF);
+    font-size: 7rem;
+    width: 100%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(to right, #69f40c, #00FFFF);
+    }
+    50% {
+      background: linear-gradient(to right, #00FFFF, #69f40c);
+    }
+    100% {
+      background: linear-gradient(to right, #69f40c, #00FFFF);
+    }
+}
+
+@keyframes gradientAnimationText {
+    0% {
+        background-image: linear-gradient(to right, #69f40c, #00FFFF);
+    }
+    50% {
+        background-image: linear-gradient(to right, #00FFFF, #69f40c);
+    }
+    100% {
+        background-image: linear-gradient(to right, #69f40c, #00FFFF);
+    }
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 500px;
+    font-size: 16px;
+    transition: border-bottom-color 0.3s;
+}
+
+#jogador1{
+    border-bottom: 3px solid #00FFFF;
+    color: #00FFFF;
+}
+
+#jogador1::placeholder {
+    color: #85d2d2; /* Cor do placeholder */
+}
+
+#jogador2{
+    border-bottom: 3px solid #69f40c;
+    color: #69f40c;
+}
+
+
+#jogador2::placeholder {
+    color: #a3cc88; /* Cor do placeholder */
+}
