@@ -16,8 +16,8 @@ Lógica: fui por um caminho que eu não estava habituada, logo pensei em ifs e e
 
 
 <h4>2.1 Quando venceu</h4>
-<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/222674ad-d858-4662-9f00-a7334cea0310" />
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/c0bebf2b-d8f5-4373-8ead-cc8eed22b6ae" />
 
 
 <h4>2.2 Quando dá velha</h4>
-<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/c0bebf2b-d8f5-4373-8ead-cc8eed22b6ae" />
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/222674ad-d858-4662-9f00-a7334cea0310" />
