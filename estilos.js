@@ -17,7 +17,6 @@ var jogador2Selecionado = document.getElementById('jogador2Selecionado');
 var botaoAdicionar = document.querySelector("#botao-iniciar-jogo");
 
 botaoAdicionar.addEventListener("click", function(){
-    debugger;
     if(jorgador1.value == '' || jorgador2.value == ''){
         alert('Preencha o nome dos jogadores para continuar');
     }else{

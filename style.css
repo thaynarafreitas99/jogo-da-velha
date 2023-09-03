@@ -116,7 +116,6 @@ button{
     width: 50%;
     display: block;
     animation: gradientAnimation 5s infinite;
-    width: 100;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -124,20 +123,18 @@ button{
 }
 
 .titulo-do-jogo{
-    position: absolute;
-    left: 81%;
-    top: 5%;
     margin-bottom: 1rem;
     font-weight: bold;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-transform: uppercase;
-    transform: translate(-50%, -50%);
     animation: gradientAnimationText 5s infinite;
     background-image: linear-gradient(to right, #69f40c, #00FFFF);
     font-size: 3rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes gradientAnimation {
@@ -197,6 +194,8 @@ button{
     align-items: center;
     top: 10%;
     position: absolute;
+    width: 100%;
+    justify-content: center;
 
 }
 
