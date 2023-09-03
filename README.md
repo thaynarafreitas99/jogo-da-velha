@@ -8,18 +8,16 @@ Lógica: fui por um caminho que eu não estava habituada, logo pensei em ifs e e
 
 
 <h4>1. Tela inicial</h4>
-<img  src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/f692b9a6-621e-4732-bdca-47699faac657)" />
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/f692b9a6-621e-4732-bdca-47699faac657" />
 
 
 <h4>2. Tela do jogo</h4>
-<img  src="[[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/f692b9a6-621e-4732-bdca-47699faac657)](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/e9796d35-0f5b-4607-aae4-215b5b95812f)" />
-
-![tela-jogo](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/e9796d35-0f5b-4607-aae4-215b5b95812f)
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/e9796d35-0f5b-4607-aae4-215b5b95812f" />
 
 
 <h4>2.1 Quando venceu</h4>
-![cenario-velha](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/222674ad-d858-4662-9f00-a7334cea0310)
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/222674ad-d858-4662-9f00-a7334cea0310" />
 
 
 <h4>2.2 Quando dá velha</h4>
-![cenario-vencedor](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/c0bebf2b-d8f5-4373-8ead-cc8eed22b6ae)
+<img  src="https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/c0bebf2b-d8f5-4373-8ead-cc8eed22b6ae" />
