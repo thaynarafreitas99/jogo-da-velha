@@ -8,6 +8,9 @@ Lógica: fui por um caminho que eu não estava habituada, logo pensei em ifs e e
 
 
 <h4>1. Tela inicial</h4>
+<img  src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/f692b9a6-621e-4732-bdca-47699faac657)" />
+
+
 ![tela-inicial](https://github.com/thaynarafreitas99/jogo-da-velha/assets/49327331/f692b9a6-621e-4732-bdca-47699faac657)
 
 
