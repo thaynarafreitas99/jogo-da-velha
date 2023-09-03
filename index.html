@@ -9,19 +9,18 @@
     <title>Jogo da velha</title>
 </head>
 <body>
+    <h1 class="titulo-do-jogo">Jogo da velh#</h1>
 
     <div class="container-inicial-jogadores" id="bloco-inicial">
-        <h1 class="titulo-do-jogo">Jogo da velh#</h1>
-
         <div class="container-div" id="div-1">
-            <span class="circulo-jogador"></span>
+            <span class="x-jogador">X</span>
             <div>
                 <input id="jogador1" name="jogador1" type="text" placeholder="Nome jogador 1..." class="input">
             </div>
         </div>
 
         <div class="container-div" id="div-2">
-            <span class="x-jogador">X</span>
+            <span class="circulo-jogador"></span>
             <div>
                 <input id="jogador2" name="jogador2" type="text" placeholder="Nome jogador 2..." class="input">
             </div>
@@ -30,8 +29,18 @@
         <button id="botao-iniciar-jogo" class="btn-iniciar-jogo">Play</button>
     </div>
 
+    <div class="container-jogadores-play" id="container-play">
+        <div class="bloco-jogador" id="div-1-selecionado">
+            <span class="x-jogador-play">X</span>
+            <span id="jogador1Selecionado" class="texto-1">Jogador 2</span>
+        </div>
 
-    <!-- <h1>Vencedor</h1> -->
+        <div class="bloco-jogador" id="div-2-selecionado">
+            <span class="circulo-jogador-play"></span>
+            <span id="jogador2Selecionado" class="texto-2"> Jogador 1</span>
+        </div>
+    </div>
+
     <table id="table">
         <tr id="primeiraTr">
           <td id="um"></td>
